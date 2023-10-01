@@ -1,5 +1,6 @@
+package OldModelGeneration;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Main {
     ArrayList<Block> blockchain = new ArrayList<>();
@@ -14,11 +15,11 @@ public class Main {
         String[] genesisTransactions3 = {"Alisha","21BCA1162@cuchd.in","20"};
         Block genesisBlock3 = new Block(genesisBlock.getBlockHash(),genesisTransactions3);
 
-        System.out.println("Hash Of Genesis Block:");
+        System.out.println("Hash Of Genesis OldModelGeneration.Block:");
         System.out.println(genesisBlock.getBlockHash());
-        System.out.println("Hash of Block 2");
+        System.out.println("Hash of OldModelGeneration.Block 2");
         System.out.println(genesisBlock2.getBlockHash());
-        System.out.println("Hash of Block 3");
+        System.out.println("Hash of OldModelGeneration.Block 3");
         System.out.println(genesisBlock3.getBlockHash());
 
     }
