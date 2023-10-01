@@ -1,5 +1,7 @@
 # PWB-Model-Generation
-## Simple Basic Block Generation
+
+
+# Simple Basic Block Generation
 
 In this Java code example, we demonstrate the fundamentals of creating a basic block for a blockchain data structure. This basic block consists of three essential attributes:
 
